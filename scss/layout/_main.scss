@@ -1,0 +1,53 @@
+main {
+  flex-grow: 1;
+}
+// section pr-language start
+.pr-language {
+  padding-top: 3.25rem;
+  margin-bottom: 4.25rem;
+  background: url(../images/svg/hero-left-top-bg.svg);
+  background-repeat: no-repeat;
+  background-position: bottom right -23.9rem;
+}
+.pr-language__container {
+}
+.pr-language__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 5.8rem;
+  padding-bottom: 5.5rem;
+}
+.pr-language__item {
+}
+// section pr-language end
+// section project start
+.project {
+}
+.project-container {
+  padding-top: 4.25rem;
+  margin-bottom: 13.9rem;
+}
+
+.project__title-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8rem;
+}
+
+.project__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6.9rem 2.7rem;
+}
+.project__item {
+  h3 {
+    padding-top: 2rem;
+  }
+}
+.card-text__wrapper {
+  display: flex;
+  gap: 2rem;
+  padding-top: 0.7rem;
+}
+// section project end
