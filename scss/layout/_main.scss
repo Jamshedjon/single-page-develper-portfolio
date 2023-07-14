@@ -3,7 +3,7 @@ main {
 }
 // section pr-language start
 .pr-language {
-  padding-top: 3.25rem;
+  padding-top: 5.2rem;
   margin-bottom: 4.25rem;
   background: url(../images/svg/hero-left-top-bg.svg);
   background-repeat: no-repeat;
@@ -12,6 +12,9 @@ main {
 .pr-language__container {
 }
 .pr-language__list {
+  border-top: 1px solid $white;
+  padding-top: 3.25rem;
+
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   row-gap: 5.8rem;

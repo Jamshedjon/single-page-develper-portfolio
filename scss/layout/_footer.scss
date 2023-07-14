@@ -1,0 +1,61 @@
+.footer {
+  background: $dark-grey url(../images/svg/hero-left-top-bg.svg);
+  background-repeat: no-repeat;
+  background-position: left -20.5rem bottom 21.9rem;
+  padding-top: 8.4rem;
+}
+.contact {
+}
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+}
+.container {
+}
+.contact__title-wrapper {
+  width: 100%;
+  max-width: 44.5rem;
+  h1 {
+    margin-bottom: 3.6rem;
+  }
+}
+.contact__form-wrapper {
+  width: 100%;
+  max-width: 44.5rem;
+}
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  .submit-btn {
+    transition: 0.3s ease;
+    &:hover {
+      color: $green;
+    }
+    width: 14.2rem;
+    margin-left: auto;
+  }
+  input {
+    width: 100%;
+
+    padding-left: 2.4rem;
+    padding-bottom: 1.7rem;
+    border: none;
+    border-bottom: 1px solid $white;
+    background: none;
+  }
+  .input-massage {
+    padding-bottom: 8.5rem;
+  }
+}
+.footer-container {
+  padding-top: 4.6rem;
+}
+.footer__br-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 9.2rem;
+  padding-top: 4.7rem;
+  border-top: 1px solid $white;
+}
