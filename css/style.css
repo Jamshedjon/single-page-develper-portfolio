@@ -920,7 +920,7 @@ main {
     width: 420px;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 450px) {
   .project__item img {
     width: 345px;
   }
