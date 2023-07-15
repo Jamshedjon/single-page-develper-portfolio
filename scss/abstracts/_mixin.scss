@@ -4,3 +4,15 @@
   font-weight: $fw;
   letter-spacing: $ls;
 }
+@mixin responsive($breackpoint) {
+  @if $breackpoint == tablet {
+    @media (max-width: 768px) {
+      @content;
+    }
+  }
+  @if $breackpoint == mobile {
+    @media (max-width: 375px) {
+      @content;
+    }
+  }
+}

@@ -2,6 +2,9 @@
   background: $dark-grey url(../images/svg/hero-left-top-bg.svg);
   background-repeat: no-repeat;
   background-position: left -20.5rem bottom 21.9rem;
+  @media (max-width: 768px) {
+    background-position: left -36.8rem bottom 21.9rem;
+  }
   padding-top: 8.4rem;
 }
 .contact {
@@ -9,6 +12,22 @@
 .contact-container {
   display: flex;
   justify-content: space-between;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+    gap: 4.8rem;
+    .contact__title-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      p {
+        text-align: center;
+      }
+      h1 {
+        margin-bottom: 2rem;
+      }
+    }
+  }
 }
 .container {
 }
@@ -37,7 +56,8 @@
   }
   input {
     width: 100%;
-
+    color: $white;
+    text-transform: uppercase;
     padding-left: 2.4rem;
     padding-bottom: 1.7rem;
     border: none;
@@ -48,9 +68,7 @@
     padding-bottom: 8.5rem;
   }
 }
-.footer-container {
-  padding-top: 4.6rem;
-}
+
 .footer__br-top {
   display: flex;
   align-items: center;
@@ -58,4 +76,9 @@
   margin-bottom: 9.2rem;
   padding-top: 4.7rem;
   border-top: 1px solid $white;
+}
+@media (max-width: 768px) {
+  .footer-container {
+    padding-top: 9.2rem;
+  }
 }

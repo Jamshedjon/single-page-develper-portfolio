@@ -19,9 +19,13 @@ main {
   grid-template-columns: repeat(3, 1fr);
   row-gap: 5.8rem;
   padding-bottom: 5.5rem;
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 .pr-language__item {
 }
+
 // section pr-language end
 // section project start
 .project {
@@ -42,12 +46,21 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 6.9rem 2.7rem;
+  @media (max-width: 768px) {
+    gap: 6rem 2.2rem;
+  }
 }
 .project__item {
-  position: relative;
   h3 {
     padding-top: 2rem;
   }
+  @media (max-width: 768px) {
+    img {
+      width: 345px;
+      height: 253px;
+    }
+  }
+  position: relative;
   &:hover .mask {
     display: block;
   }
@@ -62,6 +75,7 @@ main {
     opacity: 75%;
   }
 }
+
 .mask-btn {
   position: absolute;
   left: 50%;
@@ -79,4 +93,5 @@ main {
   gap: 2rem;
   padding-top: 0.7rem;
 }
+
 // section project end
