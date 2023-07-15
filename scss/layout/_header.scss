@@ -5,7 +5,7 @@
 .header-container {
   display: flex;
   justify-content: space-between;
-  @media (max-width: 375px) {
+  @media (max-width: 598px) {
     flex-direction: column;
     gap: 2rem;
     align-items: center;
@@ -16,7 +16,7 @@
   display: flex;
   gap: 3.2rem;
   margin-right: 3.2rem;
-  @media (max-width: 375px) {
+  @media (max-width: 598px) {
     margin-right: 0;
   }
 
@@ -46,7 +46,7 @@
 }
 .hero-container {
   display: flex;
-  @media (max-width: 375px) {
+  @media (max-width: 598px) {
     flex-direction: column-reverse;
     align-items: center;
     h1,
@@ -54,7 +54,10 @@
       text-align: center;
     }
     a {
-      margin-left: 10rem;
+      margin-right: auto;
+      margin-left: auto;
+      text-align: center;
+      width: 100%;
     }
   }
 }
