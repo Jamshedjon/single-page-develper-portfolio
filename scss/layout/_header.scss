@@ -147,7 +147,7 @@
     font-size: 5.2rem;
   }
 }
-@include responsive(mobile) {
+@media (max-width: 598px) {
   .container {
     padding: 0 1.6rem;
   }
