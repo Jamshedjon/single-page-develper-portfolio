@@ -598,7 +598,7 @@ p {
   height: 6px;
   background: #4ee1a0;
 }
-@media (max-width: 768px) {
+@media (max-width: 899px) {
   .hero__left {
     padding-top: 15.1rem;
   }
@@ -625,7 +625,7 @@ p {
 @media (max-width: 885px) {
   .hero__right .hero-person-img {
     width: 314px;
-    height: 486px;
+    height: 433px;
   }
 }
 .hero__right .hero__right-img--decoration {
@@ -643,9 +643,6 @@ p {
   h1 {
     font-size: 7.2rem;
   }
-  .hero__left {
-    max-width: 50rem;
-  }
 }
 @media (max-width: 810px) {
   .hero h1 {
@@ -656,6 +653,11 @@ p {
 @media (max-width: 768px) {
   .container {
     padding: 0 3rem;
+  }
+}
+@media (max-width: 761px) {
+  h1 {
+    font-size: 5.2rem;
   }
 }
 .footer {
@@ -767,10 +769,14 @@ main {
   row-gap: 5.8rem;
   padding-bottom: 5.5rem;
 }
-@media (max-width: 768px) {
+@media (max-width: 822px) {
   .pr-language__list {
     grid-template-columns: repeat(2, 1fr);
   }
+}
+
+.pr-language__item {
+  margin-right: 2rem;
 }
 
 .project-container {
@@ -792,7 +798,12 @@ main {
 }
 @media (max-width: 768px) {
   .project__list {
-    gap: 6rem 2.2rem;
+    gap: 6rem 2rem;
+  }
+}
+@media (max-width: 765px) {
+  .project__list {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -802,10 +813,49 @@ main {
 .project__item h3 {
   padding-top: 2rem;
 }
-@media (max-width: 768px) {
+@media (max-width: 1190px) {
+  .project__item img {
+    width: 480px;
+  }
+}
+@media (max-width: 1105px) {
+  .project__item img {
+    width: 390px;
+  }
+}
+@media (max-width: 919px) {
   .project__item img {
     width: 345px;
-    height: 253px;
+  }
+}
+@media (max-width: 765px) {
+  .project__item img {
+    width: 580px;
+  }
+}
+@media (max-width: 650px) {
+  .project__item img {
+    width: 490px;
+  }
+}
+@media (max-width: 645px) {
+  .project__item img {
+    width: 420px;
+  }
+}
+@media (max-width: 645px) {
+  .project__item img {
+    width: 420px;
+  }
+}
+@media (max-width: 645px) {
+  .project__item img {
+    width: 420px;
+  }
+}
+@media (max-width: 375px) {
+  .project__item img {
+    width: 345px;
   }
 }
 .project__item:hover .mask {
