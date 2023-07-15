@@ -22,6 +22,12 @@ main {
   @media (max-width: 822px) {
     grid-template-columns: repeat(2, 1fr);
   }
+  @media (max-width: 375px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5.8rem;
+  }
 }
 .pr-language__item {
   margin-right: 2rem;

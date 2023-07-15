@@ -5,15 +5,34 @@
 .header-container {
   display: flex;
   justify-content: space-between;
+  @media (max-width: 375px) {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
 }
 
 .header__social-media {
   display: flex;
   gap: 3.2rem;
   margin-right: 3.2rem;
+  @media (max-width: 375px) {
+    margin-right: 0;
+  }
 
   svg:hover path {
     fill: $green;
+  }
+}
+@media (max-width: 375px) {
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 3.2rem;
+  }
+  .container {
+    padding: 0 1.6rem;
   }
 }
 .hero {
@@ -27,6 +46,17 @@
 }
 .hero-container {
   display: flex;
+  @media (max-width: 375px) {
+    flex-direction: column-reverse;
+    align-items: center;
+    h1,
+    p {
+      text-align: center;
+    }
+    a {
+      margin-left: 10rem;
+    }
+  }
 }
 .hero__left {
   padding-top: 19.8rem;
@@ -112,5 +142,10 @@
 @media (max-width: 761px) {
   h1 {
     font-size: 5.2rem;
+  }
+}
+@include responsive(mobile) {
+  .container {
+    padding: 0 1.6rem;
   }
 }

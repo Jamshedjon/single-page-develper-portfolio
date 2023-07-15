@@ -68,6 +68,14 @@
     padding-bottom: 8.5rem;
   }
 }
+.footer__br-top {
+  @media (max-width: 375px) {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+}
 
 .footer__br-top {
   display: flex;
