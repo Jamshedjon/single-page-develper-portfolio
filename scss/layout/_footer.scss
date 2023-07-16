@@ -7,6 +7,9 @@
   }
   padding-top: 8.4rem;
 }
+.footer-container {
+  padding-top: 9.2rem;
+}
 .contact {
 }
 .contact-container {
@@ -84,9 +87,4 @@
   margin-bottom: 9.2rem;
   padding-top: 4.7rem;
   border-top: 1px solid $white;
-}
-@media (max-width: 768px) {
-  .footer-container {
-    padding-top: 9.2rem;
-  }
 }

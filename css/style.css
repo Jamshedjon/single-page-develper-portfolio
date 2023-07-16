@@ -699,7 +699,7 @@ p {
     font-size: 5.2rem;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 598px) {
   .container {
     padding: 0 1.6rem;
   }
@@ -714,6 +714,10 @@ p {
   .footer {
     background-position: left -36.8rem bottom 21.9rem;
   }
+}
+
+.footer-container {
+  padding-top: 9.2rem;
 }
 
 .contact-container {
@@ -797,11 +801,6 @@ p {
   border-top: 1px solid #ffffff;
 }
 
-@media (max-width: 768px) {
-  .footer-container {
-    padding-top: 9.2rem;
-  }
-}
 main {
   flex-grow: 1;
 }
